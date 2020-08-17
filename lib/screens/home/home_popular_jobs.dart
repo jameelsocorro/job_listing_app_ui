@@ -1,8 +1,11 @@
+import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:job_listing_app_ui/constants.dart';
 import 'package:job_listing_app_ui/mock_data.dart';
+import 'package:job_listing_app_ui/model/job.dart';
+import 'package:job_listing_app_ui/screens/detail/detail_screen.dart';
 import 'package:job_listing_app_ui/widgets/job_card.dart';
 
 class HomePopularJobs extends StatefulWidget {

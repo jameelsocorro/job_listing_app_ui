@@ -14,6 +14,12 @@ final kCardShadow = BoxShadow(
   offset: Offset(10.w, 10.w),
 );
 
+final kFooterShadow = BoxShadow(
+  color: Color.fromRGBO(0, 0, 0, 0.10),
+  blurRadius: 50.w,
+  offset: Offset(0, -10.w),
+);
+
 final kHeadingTextStyle = TextStyle(
   color: kPrimaryTextColor,
   fontFamily: 'SF Pro Rounded',
