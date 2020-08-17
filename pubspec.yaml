@@ -73,6 +73,8 @@ flutter:
   fonts:
     - family: SF Pro Rounded
       fonts:
+        - asset: assets/fonts/SF-Pro-Rounded-Thin.otf
+          weight: 100
         - asset: assets/fonts/SF-Pro-Rounded-Bold.otf
           weight: 600
         - asset: assets/fonts/SF-Pro-Rounded-Heavy.otf
